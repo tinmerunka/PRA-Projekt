@@ -1,0 +1,734 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARENDT - Edit Quiz</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/pages/quiz.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">ARENDT</div>
+            <nav class="main-nav">
+                <a href="/pages/quiz/list.html">My Quizzes</a>
+                <a href="/pages/quiz/create.html">Create</a>
+                <div class="user-menu">
+                    <span id="userNameDisplay"></span>
+                    <div class="user-dropdown">
+                        <a href="/pages/user/profile.html">Profile</a>
+                        <a href="#" id="logoutBtn">Logout</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="app-content">
+            <div class="content-header">
+                <h1>Edit Quiz</h1>
+                <div class="header-actions">
+                    <button id="btnSaveQuiz" class="btn btn-primary">Save Changes</button>
+                    <a href="/pages/quiz/list.html" class="btn btn-outline">Cancel</a>
+                </div>
+            </div>
+
+            <div class="quiz-editor">
+                <!-- Quiz Info Section -->
+                <section class="quiz-section">
+                    <h2>Quiz Details</h2>
+                    <div class="form-group">
+                        <label for="quizTitle">Quiz Title</label>
+                        <input type="text" id="quizTitle" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quizDescription">Description</label>
+                        <textarea id="quizDescription" class="form-control" required></textarea>
+                    </div>
+                </section>
+
+                <!-- Questions Section -->
+                <section class="quiz-section">
+                    <div class="section-header">
+                        <h2>Questions</h2>
+                        <button id="btnAddQuestion" class="btn btn-secondary btn-sm">Add Question</button>
+                    </div>
+
+                    <div id="questionsContainer">
+                        <!-- Questions will be dynamically added here -->
+                    </div>
+                </section>
+
+                <!-- Question Editor (Initially Hidden) -->
+                <div id="questionEditor" class="modal" style="display:none">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 id="questionEditorTitle">Add Question</h3>
+                            <button class="close-modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="questionForm">
+                                <input type="hidden" id="questionId" value="0">
+                                <input type="hidden" id="questionPosition" value="0">
+
+                                <div class="form-group">
+                                    <label for="questionText">Question</label>
+                                    <input type="text" id="questionText" name="questionText" class="form-control" placeholder="Enter your question" required>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group form-group-half">
+                                        <label for="questionTime">Time Limit (15-60 seconds)</label>
+                                        <input type="number" id="questionTime" name="questionTime" class="form-control" min="15" max="60" value="30" required>
+                                    </div>
+                                    <div class="form-group form-group-half">
+                                        <label for="questionMaxPoints">Points</label>
+                                        <input type="number" id="questionMaxPoints" name="questionMaxPoints" class="form-control" min="1" max="1000" value="100" required>
+                                    </div>
+                                </div>
+
+                                <!-- Also add names to hidden fields -->
+                                <input type="hidden" id="questionId" name="questionId" value="0">
+                                <input type="hidden" id="questionPosition" name="questionPosition" value="0">
+
+
+                                <div class="answer-options">
+                                    <h3>Answer Options</h3>
+                                    <p class="hint">Select one correct answer</p>
+
+                                    <div class="answer-option">
+                                        <input type="text" id="answer1" name="answer1" class="form-control" placeholder="Answer option 1" required>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox" id="chbxAnswer1" name="correctAnswer">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+
+                                    <div class="answer-option">
+                                        <input type="text" id="answer2" name="answer2" class="form-control" placeholder="Answer option 2" required>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox" id="chbxAnswer2" name="correctAnswer">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+
+                                    <div class="answer-option">
+                                        <input type="text" id="answer3" name="answer3" class="form-control" placeholder="Answer option 3" required>
+                                        <label class="checkbox-container"> 
+                                            <input type="checkbox" id="chbxAnswer3" name="correctAnswer">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+
+                                    <div class="answer-option">
+                                        <input type="text" id="answer4" name="answer4" class="form-control" placeholder="Answer option 4" required>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox" id="chbxAnswer4" name="correctAnswer">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="button-group">
+                                    <button type="button" class="btn btn-outline cancel-btn">Cancel</button>
+                                    <button type="submit" class="btn btn-primary">Save Question</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2025 ARENDT. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <style>
+        .quiz-editor {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--spacing-4);
+        }
+
+        .question-item {
+            background-color: white;
+            padding: var(--spacing-4);
+            border-radius: var(--border-radius);
+            margin-bottom: var(--spacing-4);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .question-content {
+            flex: 1;
+        }
+
+        .question-controls {
+            display: flex;
+            gap: var(--spacing-2);
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 10vh auto;
+            max-width: 600px;
+            max-height: 80vh;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-4);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+            .modal-header h3 {
+                margin: 0;
+            }
+
+        .close-modal {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--color-text-light);
+        }
+
+        .modal-body {
+            padding: var(--spacing-4);
+            max-height: calc(80vh - 70px);
+            overflow-y: auto;
+        }
+        .question-item.new-question {
+            border-left: 3px solid var(--color-primary);
+            background-color: rgba(0, 123, 255, 0.05);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25em 0.4em;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 0.25rem;
+            margin-left: 0.5rem;
+        }
+
+        .badge-new {
+            color: #fff;
+            background-color: var(--color-primary);
+        }
+
+    </style>
+
+    <script src="/js/utils.js"></script>
+    <script src="/js/api-service.js"></script>
+    <script>onDocumentReady(() => {
+      if (!requireAuth()) return;
+
+      // Get quiz ID from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const quizId = urlParams.get('id');
+
+      if (!quizId) {
+        alert('No quiz ID provided. Redirecting to quiz list.');
+        window.location.href = '/pages/quiz/list.html';
+        return;
+      }
+
+      // Elements
+      const quizTitle = document.getElementById('quizTitle');
+      const quizDescription = document.getElementById('quizDescription');
+      const questionsContainer = document.getElementById('questionsContainer');
+      const btnAddQuestion = document.getElementById('btnAddQuestion');
+      const btnSaveQuiz = document.getElementById('btnSaveQuiz');
+      const questionEditor = document.getElementById('questionEditor');
+      const questionForm = document.getElementById('questionForm');
+      const closeModalBtn = document.querySelector('.close-modal');
+      const cancelBtn = document.querySelector('.cancel-btn');
+
+      // Quiz data
+      let quizData = {
+        quizId: parseInt(quizId, 10),
+        title: '',
+        description: '',
+        authorId: 0,
+        questions: []
+      };
+
+
+    // Fetch quiz data
+    function fetchQuiz() {
+        const loadingIndicator = document.createElement('div');
+        loadingIndicator.className = 'loading-indicator';
+        loadingIndicator.textContent = 'Loading quiz data...';
+
+        if (questionsContainer) {
+            questionsContainer.innerHTML = '';
+            questionsContainer.appendChild(loadingIndicator);
+        }
+
+        quizAPI.getQuizById(quizId)
+            .then(data => {
+                console.log("Quiz data loaded from server:", JSON.stringify(data));
+
+                // Ensure we have proper arrays
+                if (!data.questions) {
+                    data.questions = [];
+                }
+
+                // Make sure every question has the answers array
+                data.questions.forEach(question => {
+                    if (!question.answers) {
+                        question.answers = [];
+                    }
+                });
+
+                quizData = data;
+                displayQuizData();
+            })
+            .catch(error => {
+                console.error('Error fetching quiz:', error);
+                questionsContainer.innerHTML =
+                    `<p class="error-message">Error loading quiz: ${error.message || 'Unknown error'}</p>`;
+                alert('Error loading quiz. Please try again.');
+            });
+    }
+
+
+
+      // Display quiz data
+      function displayQuizData() {
+        // Set quiz info
+        if (quizTitle) quizTitle.value = quizData.title;
+        if (quizDescription) quizDescription.value = quizData.description;
+
+        // Display questions
+        displayQuestions();
+      }
+
+    // Display all questions
+    function displayQuestions() {
+        if (!questionsContainer) return;
+
+        questionsContainer.innerHTML = '';
+
+        if (!quizData.questions || quizData.questions.length === 0) {
+            questionsContainer.innerHTML = '<p class="empty-message">No questions yet. Click "Add Question" to create your first question.</p>';
+            return;
+        }
+
+        console.log("Displaying questions:", quizData.questions.length);
+
+        // Sort questions by position
+        const sortedQuestions = [...quizData.questions].sort((a, b) => a.questionPosition - b.questionPosition);
+
+        sortedQuestions.forEach((question, index) => {
+            if (!question) {
+                console.log("Warning: Encountered null question at index", index);
+                return;
+            }
+
+            console.log(`Displaying question ${index + 1}:`, question);
+
+            const questionElement = document.createElement('div');
+            questionElement.className = 'question-item';
+
+            // Add a visual indicator for newly added questions that haven't been saved yet
+            if (question.questionId === 0) {
+                questionElement.classList.add('new-question');
+            }
+
+            questionElement.innerHTML = `
+            <div class="question-content">
+                <h4>${index + 1}. ${question.questionText || 'Untitled Question'}</h4>
+                <p>Time: ${question.questionTime || 30} sec | Points: ${question.questionMaxPoints || 100}</p>
+                ${question.questionId === 0 ? '<span class="badge badge-new">New</span>' : ''}
+            </div>
+            <div class="question-controls">
+                <button class="btn btn-sm btn-outline edit-question" data-question-id="${question.questionId}" data-index="${index}">Edit</button>
+                <button class="btn btn-sm btn-danger delete-question" data-question-id="${question.questionId}" data-index="${index}">Delete</button>
+            </div>
+        `;
+
+            // Add event listeners using data attributes for both ID and index
+            const editBtn = questionElement.querySelector('.edit-question');
+            const deleteBtn = questionElement.querySelector('.delete-question');
+
+            editBtn.addEventListener('click', () => {
+                const questionToEdit = question.questionId !== 0 ?
+                    quizData.questions.find(q => q.questionId === question.questionId) :
+                    quizData.questions[index];
+                openQuestionEditor(questionToEdit);
+            });
+
+            deleteBtn.addEventListener('click', () => {
+                if (question.questionId !== 0) {
+                    deleteQuestion(question.questionId);
+                } else {
+                    // For new questions that don't have an ID yet
+                    quizData.questions.splice(index, 1);
+                    displayQuestions();
+                }
+            });
+
+            questionsContainer.appendChild(questionElement);
+        });
+    }
+
+    function setupCheckboxes() {
+        const checkboxes = document.querySelectorAll('input[name="correctAnswer"]');
+
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function () {
+                if (this.checked) {
+                    // Uncheck all other checkboxes
+                    checkboxes.forEach(cb => {
+                        if (cb !== this) cb.checked = false;
+                    });
+                }
+            });
+        });
+    }
+
+      // Open question editor modal
+      function openQuestionEditor(question = null) {
+        const isEditing = !!question;
+        const editorTitle = document.getElementById('questionEditorTitle');
+        const questionIdInput = document.getElementById('questionId');
+        const questionPositionInput = document.getElementById('questionPosition');
+        const questionTextInput = document.getElementById('questionText');
+        const questionTimeInput = document.getElementById('questionTime');
+        const questionMaxPointsInput = document.getElementById('questionMaxPoints');
+
+        // Reset form
+        questionForm.reset();
+
+        // Update title
+        if (editorTitle) {
+          editorTitle.textContent = isEditing ? 'Edit Question' : 'Add Question';
+        }
+
+        if (isEditing) {
+          // Fill form with question data
+          questionIdInput.value = question.questionId;
+          questionPositionInput.value = question.questionPosition;
+          questionTextInput.value = question.questionText;
+          questionTimeInput.value = question.questionTime;
+          questionMaxPointsInput.value = question.questionMaxPoints;
+
+          // Fill answer options
+          if (question.answers && question.answers.length === 4) {
+            question.answers.forEach((answer, index) => {
+              const answerInput = document.getElementById(`answer${index + 1}`);
+              const answerCheckbox = document.getElementById(`chbxAnswer${index + 1}`);
+
+              if (answerInput) answerInput.value = answer.answerText;
+              if (answerCheckbox) answerCheckbox.checked = answer.correct;
+            });
+          }
+        } else {
+          // Set default values for new question
+          questionIdInput.value = '0';
+          questionPositionInput.value = quizData.questions.length + 1;
+        }
+
+        // Show modal
+          questionEditor.style.display = 'block';
+
+          setupCheckboxes();
+      }
+
+      // Close question editor modal
+      function closeQuestionEditor() {
+        questionEditor.style.display = 'none';
+      }
+
+      // Save question
+    function saveQuestion(formData) {
+        // Log form data for debugging
+        console.log("FormData entries:");
+        for (let pair of formData.entries()) {
+            console.log(pair[0] + ': ' + pair[1]);
+        }
+        const questionId = parseInt(formData.get('questionId') || '0', 10);
+        const questionPosition = parseInt(formData.get('questionPosition') || '1', 10);
+        const isNewQuestion = questionId === 0;
+
+        // Create answer data while preserving existing IDs for edited questions
+        const existingQuestion = !isNewQuestion ?
+            quizData.questions.find(q => q.questionId === questionId) : null;
+
+        // Get values directly from form elements since formData might not be working properly
+        const questionText = document.getElementById('questionText').value;
+        const questionTime = parseInt(document.getElementById('questionTime').value, 10);
+        const questionMaxPoints = parseInt(document.getElementById('questionMaxPoints').value, 10);
+        const answer1Text = document.getElementById('answer1').value;
+        const answer2Text = document.getElementById('answer2').value;
+        const answer3Text = document.getElementById('answer3').value;
+        const answer4Text = document.getElementById('answer4').value;
+
+        // Create the question object with proper values
+        const questionData = {
+            questionId: questionId,
+            questionText: questionText || "New Question",
+            questionPosition: questionPosition,
+            questionTime: questionTime || 30,
+            questionMaxPoints: questionMaxPoints || 100,
+            quizId: parseInt(quizData.quizId, 10),
+            answers: [
+                {
+                    answerId: existingQuestion && existingQuestion.answers && existingQuestion.answers[0] ?
+                        existingQuestion.answers[0].answerId : 0,
+                    answerText: answer1Text || "Answer 1",
+                    correct: document.getElementById('chbxAnswer1').checked
+                },
+                {
+                    answerId: existingQuestion && existingQuestion.answers && existingQuestion.answers[1] ?
+                        existingQuestion.answers[1].answerId : 0,
+                    answerText: answer2Text || "Answer 2",
+                    correct: document.getElementById('chbxAnswer2').checked
+                },
+                {
+                    answerId: existingQuestion && existingQuestion.answers && existingQuestion.answers[2] ?
+                        existingQuestion.answers[2].answerId : 0,
+                    answerText: answer3Text || "Answer 3",
+                    correct: document.getElementById('chbxAnswer3').checked
+                },
+                {
+                    answerId: existingQuestion && existingQuestion.answers && existingQuestion.answers[3] ?
+                        existingQuestion.answers[3].answerId : 0,
+                    answerText: answer4Text || "Answer 4",
+                    correct: document.getElementById('chbxAnswer4').checked
+                }
+            ]
+        };
+
+        console.log("Question data to save:", questionData);
+
+        // Validate question data
+        if (!validateQuestion(questionData)) {
+            return;
+        }
+
+        // Show loading state
+        const saveBtn = document.querySelector('#questionForm button[type="submit"]');
+        const originalBtnText = saveBtn.textContent;
+        saveBtn.disabled = true;
+        saveBtn.textContent = 'Saving...';
+
+        // Save the question directly using the API
+        quizAPI.updateQuestion(questionId, questionData)
+            .then(savedQuestion => {
+                console.log("Question saved successfully:", savedQuestion);
+
+                if (isNewQuestion) {
+                    quizData.questions.push(savedQuestion);
+                } else {
+                    const index = quizData.questions.findIndex(q => q.questionId === questionId);
+                    if (index !== -1) {
+                        quizData.questions[index] = savedQuestion;
+                    }
+                }
+
+                closeQuestionEditor();
+                displayQuestions();
+            })
+            .catch(error => {
+                console.error("Error saving question:", error);
+                alert(`Failed to save question: ${error.message || "Unknown error"}`);
+            })
+            .finally(() => {
+                saveBtn.disabled = false;
+                saveBtn.textContent = originalBtnText;
+            });
+    }
+
+    function saveQuestionDirectly(questionData) {
+        // Show saving indicator
+        const savingMsg = document.createElement('div');
+        savingMsg.className = 'saving-indicator';
+        savingMsg.textContent = 'Saving question...';
+        document.body.appendChild(savingMsg);
+
+        // If it's a new question, save it directly via the API
+        if (questionData.questionId === 0) {
+            quizAPI.updateQuestion(0, questionData)
+                .then(savedQuestion => {
+                    console.log("Question saved directly:", savedQuestion);
+
+                    // Replace the temporary question with the saved version
+                    const index = quizData.questions.findIndex(q =>
+                        q.questionText === questionData.questionText && q.questionId === 0);
+
+                    if (index !== -1) {
+                        quizData.questions[index] = savedQuestion;
+                    }
+
+                    // Refresh display
+                    displayQuestions();
+
+                    document.body.removeChild(savingMsg);
+                })
+                .catch(error => {
+                    console.error("Error saving question:", error);
+                    document.body.removeChild(savingMsg);
+                    alert("Failed to save question: " + (error.message || "Unknown error"));
+                });
+        }
+    }
+
+
+
+      // Delete question
+      function deleteQuestion(questionId) {
+        if (confirm('Are you sure you want to delete this question?')) {
+          quizData.questions = quizData.questions.filter(q => q.questionId !== questionId);
+          displayQuestions();
+        }
+      }
+
+      // Validate question
+      function validateQuestion(question) {
+        // Check time limits
+        if (question.questionTime < 15 || question.questionTime > 60) {
+          alert('Question time must be between 15 and 60 seconds.');
+          return false;
+        }
+
+        // Check points
+        if (question.questionMaxPoints < 1 || question.questionMaxPoints > 1000) {
+          alert('Question points must be between 1 and 1000.');
+          return false;
+        }
+
+        // Check for one correct answer
+        const correctAnswers = question.answers.filter(a => a.correct);
+        if (correctAnswers.length !== 1) {
+          alert('Each question must have exactly one correct answer.');
+          return false;
+        }
+
+        return true;
+      }
+
+      // Save quiz
+    function saveQuiz() {
+        // Get quiz data from form
+        quizData.title = quizTitle.value;
+        quizData.description = quizDescription.value;
+
+        // Validate quiz data
+        if (!quizData.title || !quizData.description) {
+            alert('Please enter a title and description for your quiz.');
+            return;
+        }
+
+        if (quizData.questions.length < 3) {
+            alert('Your quiz must have at least 3 questions.');
+            return;
+        }
+
+        // Deep clone quiz data for debugging
+        const quizDataToSave = JSON.parse(JSON.stringify(quizData));
+
+        console.log("Full quiz data being saved:", quizDataToSave);
+        console.log("Quiz questions count:", quizDataToSave.questions.length);
+
+        // Show loading state
+        const originalButtonText = btnSaveQuiz.textContent;
+        btnSaveQuiz.textContent = 'Saving...';
+        btnSaveQuiz.disabled = true;
+
+        // Save quiz
+        quizAPI.updateQuiz(quizId, quizDataToSave)
+            .then(data => {
+                console.log("Quiz saved successfully. Response:", data);
+                alert('Quiz saved successfully!');
+
+                // Refresh the quiz data from the server
+                fetchQuiz();
+                // Redirect after a short delay (e.g., 1 second)
+                setTimeout(() => {
+                    window.location.href = '/pages/quiz/list.html';
+                }, 300);
+            })
+            .catch(error => {
+                console.error('Error saving quiz:', error);
+                alert('Error saving quiz: ' + (error.message || 'Unknown error'));
+            })
+            .finally(() => {
+                // Reset button state
+                btnSaveQuiz.textContent = originalButtonText;
+                btnSaveQuiz.disabled = false;
+            });
+    }
+
+      // Event listeners
+      if (btnAddQuestion) {
+        btnAddQuestion.addEventListener('click', () => openQuestionEditor());
+      }
+
+      if (btnSaveQuiz) {
+        btnSaveQuiz.addEventListener('click', saveQuiz);
+      }
+
+      if (closeModalBtn) {
+        closeModalBtn.addEventListener('click', closeQuestionEditor);
+      }
+
+      if (cancelBtn) {
+        cancelBtn.addEventListener('click', closeQuestionEditor);
+      }
+
+      if (questionForm) {
+        questionForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const formData = new FormData(questionForm);
+          saveQuestion(formData);
+        });
+      }
+
+      // When clicking outside the modal content, close the modal
+      window.addEventListener('click', (e) => {
+        if (e.target === questionEditor) {
+          closeQuestionEditor();
+        }
+      });
+
+      // Initialize
+      fetchQuiz();
+    });</script>
+</body>
+</html>

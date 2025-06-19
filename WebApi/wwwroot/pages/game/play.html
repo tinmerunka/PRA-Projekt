@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARENDT - Play Quiz</title>
+    <!-- Same CSS files as other pages -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/pages/game.css">
+    <!-- Additional CSS for quiz player specific styles -->
+    <style>
+        /* Quiz info card styles */
+        .quiz-info-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+            .quiz-info-card h2 {
+                margin-bottom: 1.5rem;
+                font-size: 1.8rem;
+            }
+
+            .quiz-info-card p {
+                margin-bottom: 2rem;
+                color: #666;
+            }
+
+        .quiz-meta {
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Game container styles */
+        .game-container {
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .question-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .question-header {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .timer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .timer-bar {
+            height: 6px;
+            width: 100px;
+            background-color: #e9ecef;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .timer-progress {
+            height: 100%;
+            background-color: #28a745;
+            transition: width 1s linear;
+        }
+
+        .question-content {
+            padding: 2rem;
+        }
+
+            .question-content h2 {
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+
+        .answer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1rem;
+        }
+
+        .answer-card {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            background-color: white;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+            .answer-card:not(:disabled):hover {
+                background-color: #f8f9fa;
+                border-color: #4dabf7;
+            }
+
+            .answer-card.selected {
+                background-color: #e7f5ff;
+                border-color: #4dabf7;
+            }
+
+            .answer-card.correct {
+                background-color: #d4edda;
+                border-color: #28a745;
+            }
+
+            .answer-card.incorrect {
+                background-color: #f8d7da;
+                border-color: #dc3545;
+            }
+
+        .answer-letter {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #e9ecef;
+            margin-right: 1rem;
+            font-weight: bold;
+        }
+
+        /* Results container styles */
+        .results-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .final-score {
+            margin: 2rem 0;
+        }
+
+        .score-display {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #28a745;
+            margin: 1rem 0;
+        }
+
+        .result-actions {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .answer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .result-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">ARENDT</div>
+            <nav class="main-nav">
+                <a href="/pages/quiz/list.html">My Quizzes</a>
+                <a href="/pages/quiz/create.html">Create</a>
+                <div class="user-menu">
+                    <span id="userNameDisplay"></span>
+                    <div class="user-dropdown">
+                        <a href="/pages/user/profile.html">Profile</a>
+                        <a href="#" id="logoutBtn">Logout</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="app-content">
+            <div class="content-header">
+                <h1>Play Quiz</h1>
+                <a href="/pages/quiz/list.html" class="btn btn-secondary">Back to Quizzes</a>
+            </div>
+
+            <!-- Quiz Info Container -->
+            <div id="quizInfoContainer" class="quiz-container">
+                <!-- Will be populated by JS -->
+            </div>
+
+            <!-- Game Container -->
+            <div id="gameContainer" class="quiz-container" style="display: none;">
+                <div class="question-container">
+                    <div class="question-header">
+                        <div class="question-progress">
+                            Question <span id="currentQuestionNum">1</span> of <span id="totalQuestions">10</span>
+                        </div>
+                        <div class="timer">
+                            <span id="timerText">30</span>
+                            <div class="timer-bar">
+                                <div class="timer-progress" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-content">
+                        <h2 id="questionText">Loading question...</h2>
+                        <div class="answer-grid">
+                            <button class="answer-card" data-index="0">
+                                <span class="answer-letter">A</span>
+                                <span class="answer-text"></span>
+                            </button>
+                            <button class="answer-card" data-index="1">
+                                <span class="answer-letter">B</span>
+                                <span class="answer-text"></span>
+                            </button>
+                            <button class="answer-card" data-index="2">
+                                <span class="answer-letter">C</span>
+                                <span class="answer-text"></span>
+                            </button>
+                            <button class="answer-card" data-index="3">
+                                <span class="answer-letter">D</span>
+                                <span class="answer-text"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Container -->
+            <div id="resultContainer" class="quiz-container" style="display: none;">
+                <!-- Will be populated by JS -->
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2025 ARENDT. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Same JS files as other pages, plus quiz-player.js -->
+    <script src="/js/utils.js"></script>
+    <script src="/js/api-service.js"></script>
+    <script src="/js/quiz-player.js"></script>
+</body>
+</html>

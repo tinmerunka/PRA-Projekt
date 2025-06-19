@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\components.css",
+      "PackagePath": "staticwebassets\\css\\components.css"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\auth.css",
+      "PackagePath": "staticwebassets\\css\\pages\\auth.css"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\game.css",
+      "PackagePath": "staticwebassets\\css\\pages\\game.css"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\quiz.css",
+      "PackagePath": "staticwebassets\\css\\pages\\quiz.css"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api-service.js",
+      "PackagePath": "staticwebassets\\js\\api-service.js"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api.js",
+      "PackagePath": "staticwebassets\\js\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\auth.js",
+      "PackagePath": "staticwebassets\\js\\auth.js"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-creator.js",
+      "PackagePath": "staticwebassets\\js\\quiz-creator.js"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-player.js",
+      "PackagePath": "staticwebassets\\js\\quiz-player.js"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\utils.js",
+      "PackagePath": "staticwebassets\\js\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\login.html",
+      "PackagePath": "staticwebassets\\pages\\auth\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\register.html",
+      "PackagePath": "staticwebassets\\pages\\auth\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\play.html",
+      "PackagePath": "staticwebassets\\pages\\game\\play.html"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\results.html",
+      "PackagePath": "staticwebassets\\pages\\game\\results.html"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+      "PackagePath": "staticwebassets\\pages\\quiz\\create.html"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+      "PackagePath": "staticwebassets\\pages\\quiz\\edit.html"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+      "PackagePath": "staticwebassets\\pages\\quiz\\list.html"
+    },
+    {
+      "Id": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\user\\profile.html",
+      "PackagePath": "staticwebassets\\pages\\user\\profile.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApi.props",
+      "PackagePath": "build\\WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApi.props",
+      "PackagePath": "buildTransitive\\WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

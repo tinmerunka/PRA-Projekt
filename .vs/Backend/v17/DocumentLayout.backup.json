@@ -1,0 +1,450 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\quiz\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\js\\quiz-creator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\quiz-creator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\user\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\user\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\js\\api-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\api-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\quiz\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\utilities\\dbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\dbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\quiz\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\game\\results.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\game\\results.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\game\\play.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\game\\play.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\auth\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\auth\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\pages\\auth\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\auth\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\js\\quiz-player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\quiz-player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\utilities\\connectionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\connectionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\models\\pracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\pracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\dtos\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\wwwroot\\js\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\meri4\\desktop\\pra\\arendt - before changing wwroot\\arendt\\backend\\webapi\\controllers\\quizhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quizhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 267,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConnectionServices.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Utilities\\ConnectionServices.cs",
+              "RelativeDocumentMoniker": "WebApi\\Utilities\\ConnectionServices.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Utilities\\ConnectionServices.cs",
+              "RelativeToolTip": "WebApi\\Utilities\\ConnectionServices.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAgwKQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:53:09.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "QuestionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\DTOs\\QuestionDTO.cs",
+              "RelativeDocumentMoniker": "WebApi\\DTOs\\QuestionDTO.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\DTOs\\QuestionDTO.cs",
+              "RelativeToolTip": "WebApi\\DTOs\\QuestionDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:10:24.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAA3wEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:05:58.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\DTOs\\QuizDTO.cs",
+              "RelativeDocumentMoniker": "WebApi\\DTOs\\QuizDTO.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\DTOs\\QuizDTO.cs",
+              "RelativeToolTip": "WebApi\\DTOs\\QuizDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T13:03:19.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PraContext.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Models\\PraContext.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\PraContext.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Models\\PraContext.cs",
+              "RelativeToolTip": "WebApi\\Models\\PraContext.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwG4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:56:52.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\AutoMapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WebApi\\AutoMapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\AutoMapper\\MappingProfile.cs",
+              "RelativeToolTip": "WebApi\\AutoMapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:35:49.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAlwJAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:12:36.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "register.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\register.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\auth\\register.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\register.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\auth\\register.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-19T12:10:29.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\login.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\auth\\login.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\login.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\auth\\login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-19T12:10:20.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "api-service.js",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api-service.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\api-service.js",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api-service.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\api-service.js",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwLgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T23:13:55.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "utils.js",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\utils.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\utils.js",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\utils.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\utils.js",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T23:06:30.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "results.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\results.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\game\\results.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\results.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\game\\results.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T22:53:01.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "create.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\quiz\\create.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\quiz\\create.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T22:52:56.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "edit.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\quiz\\edit.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\quiz\\edit.html",
+              "ViewState": "AgIAAJ4CAAAAAAAAAAAuwKwCAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T22:52:52.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "list.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\quiz\\list.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\quiz\\list.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T22:52:46.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "auth.js",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\auth.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\auth.js",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\auth.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\auth.js",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwC8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T22:47:31.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\api.js",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\api.js",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T22:46:31.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DbServices.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Utilities\\DbServices.cs",
+              "RelativeDocumentMoniker": "WebApi\\Utilities\\DbServices.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Utilities\\DbServices.cs",
+              "RelativeToolTip": "WebApi\\Utilities\\DbServices.cs",
+              "ViewState": "AgIAAD4CAAAAAAAAAAAQwEYCAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T22:41:15.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "play.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\play.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\game\\play.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\play.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\game\\play.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T20:49:12.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuizHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\QuizHistoryController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuizHistoryController.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\QuizHistoryController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuizHistoryController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwFIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T20:29:35.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "profile.html",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\user\\profile.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\user\\profile.html",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\user\\profile.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\user\\profile.html",
+              "ViewState": "AgIAAJYBAAAAAAAAAAAAAKIBAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T19:52:18.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "quiz-creator.js",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-creator.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\quiz-creator.js",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-creator.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\quiz-creator.js",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAqwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T19:24:28.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAYwMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T19:11:21.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "quiz-player.js",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-player.js",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\quiz-player.js",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-player.js",
+              "RelativeToolTip": "WebApi\\wwwroot\\js\\quiz-player.js",
+              "ViewState": "AgIAAFMAAAAAAAAAAAApwGEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-18T19:10:00.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAYwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T19:09:18.065Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 153,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

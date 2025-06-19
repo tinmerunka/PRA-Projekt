@@ -1,0 +1,2082 @@
+{
+  "Version": 1,
+  "Hash": "fDsrDTf0krWIx/gHXZXgVwmB0g0AuwnIEdjkqaQa6qw=",
+  "Source": "WebApi",
+  "BasePath": "_content/WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApi\\wwwroot",
+      "Source": "WebApi",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\base.css",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "css/base#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bah0baa6vq",
+      "Integrity": "fTVIiRaCAPXEjG2Fl0EDV1qEfE0jjDSHQrQgbtGhsQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\base.css"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\components.css",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "css/components#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhqg0tv64r",
+      "Integrity": "Je4Y8eBIBYVDp8NoelH8PMrQzzEwE9PkywiJpPsZcWE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\components.css"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\layout.css",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "css/layout#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avvmvs0r4d",
+      "Integrity": "1nkN461T90NcB8urHeEEaJaLBRhMT0MSZnPVCpdabzI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\auth.css",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "css/pages/auth#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1rucon8kof",
+      "Integrity": "rXreeWt7TQF424OzqY+3INK08QLavYiwl8U/FSHZB6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\auth.css"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\game.css",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "css/pages/game#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t2f8ukxtu6",
+      "Integrity": "VfzvZkWKt1FHZ6vnBnAmXsZ9W4jRJVxqJhI9gPyPLOA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\game.css"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\quiz.css",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "css/pages/quiz#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pwmqsn32pc",
+      "Integrity": "ef7Xe4X4zfkNtD0BU1jJ0StG6DxoNGvLERjGKbEwCKQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pages\\quiz.css"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api.js",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "js/api#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7fuixmdczk",
+      "Integrity": "gxMX9CeSOeYVjdza4baCADSLFXZS79l4HUjc61g30/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\api.js"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api-service.js",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "js/api-service#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iqtz8fpyjb",
+      "Integrity": "tsr98/sVZC3kYCxTz7pUXM/0dohFk41nMehKNbVtWeI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\api-service.js"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\auth.js",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "js/auth#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dvzas2nbdu",
+      "Integrity": "Geh2Z/r65AQ8wbQV/1SvajC/ZXktVNbR3/tlUiGkQS0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\auth.js"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-creator.js",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "js/quiz-creator#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gqqlzuxtpf",
+      "Integrity": "aPq8w58NR0HpkS1rPJEuhZz2GR9ZwbSJbpXMS+lM4jc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\quiz-creator.js"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-player.js",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "js/quiz-player#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m299gycyfq",
+      "Integrity": "0lG1A3kttTfLBvKvYw46gbRylytGtvmPy088crLlyiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\quiz-player.js"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\utils.js",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "js/utils#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ee0dj10ijr",
+      "Integrity": "uqXl5HSZoEb5d2eM1PkYNLv0Huabb0j7q+1f8PctEbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\utils.js"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\login.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/auth/login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t64gqkt3v5",
+      "Integrity": "NTMNjhmfhvV0hvxdQMFbiSNRDbrKH9RlqIqhDFubwkY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\auth\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\register.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/auth/register#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "umaa05hozs",
+      "Integrity": "Vpg1CDS36lMu7cc89p80zE2/O0MZVYK5dhuwW7GTDp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\auth\\register.html"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\play.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/game/play#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l05y8zp5cg",
+      "Integrity": "5ZElCTx/rgBfRof5oyUWhKqMdKKL1GzNfMf6AxEY5vs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\game\\play.html"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\results.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/game/results#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "df55urrb0h",
+      "Integrity": "R7tULJatVazA1YH8aSKprHhUZgoe3ek3iZl/PIndWpw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\game\\results.html"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/quiz/create#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cblk86xo57",
+      "Integrity": "6Jhjsy1hLQscSO9zpcHF2WjTcpYg1mvlB4hrT6emqZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\quiz\\create.html"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/quiz/edit#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zyd62qtke4",
+      "Integrity": "O0Yc1oWyWyM0zRQG3kRmghOuuFd6ZUHo0DHxvsUsCi8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\quiz\\edit.html"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/quiz/list#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pabyx6eu89",
+      "Integrity": "T5mPjAkICE+kvDs/+SGhCRYCQMO0LfooYd3RlUc+dBw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\quiz\\list.html"
+    },
+    {
+      "Identity": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\user\\profile.html",
+      "SourceId": "WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\",
+      "BasePath": "_content/WebApi",
+      "RelativePath": "pages/user/profile#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0vir6yhr2s",
+      "Integrity": "xAmmLLKDEuyODxo+dlg57PnQF3yGSjmMvEftNU8l58w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\user\\profile.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/base.bah0baa6vq.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fTVIiRaCAPXEjG2Fl0EDV1qEfE0jjDSHQrQgbtGhsQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:48:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bah0baa6vq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/base.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fTVIiRaCAPXEjG2Fl0EDV1qEfE0jjDSHQrQgbtGhsQo="
+        }
+      ]
+    },
+    {
+      "Route": "css/base.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\base.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2371"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fTVIiRaCAPXEjG2Fl0EDV1qEfE0jjDSHQrQgbtGhsQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:48:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fTVIiRaCAPXEjG2Fl0EDV1qEfE0jjDSHQrQgbtGhsQo="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\components.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Je4Y8eBIBYVDp8NoelH8PMrQzzEwE9PkywiJpPsZcWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:48:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Je4Y8eBIBYVDp8NoelH8PMrQzzEwE9PkywiJpPsZcWE="
+        }
+      ]
+    },
+    {
+      "Route": "css/components.xhqg0tv64r.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\components.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Je4Y8eBIBYVDp8NoelH8PMrQzzEwE9PkywiJpPsZcWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:48:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhqg0tv64r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/components.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Je4Y8eBIBYVDp8NoelH8PMrQzzEwE9PkywiJpPsZcWE="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.avvmvs0r4d.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nkN461T90NcB8urHeEEaJaLBRhMT0MSZnPVCpdabzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:48:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avvmvs0r4d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/layout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1nkN461T90NcB8urHeEEaJaLBRhMT0MSZnPVCpdabzI="
+        }
+      ]
+    },
+    {
+      "Route": "css/layout.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\layout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1nkN461T90NcB8urHeEEaJaLBRhMT0MSZnPVCpdabzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:48:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1nkN461T90NcB8urHeEEaJaLBRhMT0MSZnPVCpdabzI="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/auth.1rucon8kof.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXreeWt7TQF424OzqY+3INK08QLavYiwl8U/FSHZB6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1rucon8kof"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pages/auth.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXreeWt7TQF424OzqY+3INK08QLavYiwl8U/FSHZB6M="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/auth.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rXreeWt7TQF424OzqY+3INK08QLavYiwl8U/FSHZB6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rXreeWt7TQF424OzqY+3INK08QLavYiwl8U/FSHZB6M="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/game.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\game.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VfzvZkWKt1FHZ6vnBnAmXsZ9W4jRJVxqJhI9gPyPLOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VfzvZkWKt1FHZ6vnBnAmXsZ9W4jRJVxqJhI9gPyPLOA="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/game.t2f8ukxtu6.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\game.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VfzvZkWKt1FHZ6vnBnAmXsZ9W4jRJVxqJhI9gPyPLOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t2f8ukxtu6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pages/game.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VfzvZkWKt1FHZ6vnBnAmXsZ9W4jRJVxqJhI9gPyPLOA="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/quiz.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\quiz.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ef7Xe4X4zfkNtD0BU1jJ0StG6DxoNGvLERjGKbEwCKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:57:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ef7Xe4X4zfkNtD0BU1jJ0StG6DxoNGvLERjGKbEwCKQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/pages/quiz.pwmqsn32pc.css",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\css\\pages\\quiz.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ef7Xe4X4zfkNtD0BU1jJ0StG6DxoNGvLERjGKbEwCKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:57:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pwmqsn32pc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pages/quiz.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ef7Xe4X4zfkNtD0BU1jJ0StG6DxoNGvLERjGKbEwCKQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/api.7fuixmdczk.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1692"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gxMX9CeSOeYVjdza4baCADSLFXZS79l4HUjc61g30/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 22:46:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7fuixmdczk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/api.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxMX9CeSOeYVjdza4baCADSLFXZS79l4HUjc61g30/U="
+        }
+      ]
+    },
+    {
+      "Route": "js/api.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1692"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gxMX9CeSOeYVjdza4baCADSLFXZS79l4HUjc61g30/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 22:46:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gxMX9CeSOeYVjdza4baCADSLFXZS79l4HUjc61g30/U="
+        }
+      ]
+    },
+    {
+      "Route": "js/api-service.iqtz8fpyjb.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api-service.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsr98/sVZC3kYCxTz7pUXM/0dohFk41nMehKNbVtWeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iqtz8fpyjb"
+        },
+        {
+          "Name": "label",
+          "Value": "js/api-service.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsr98/sVZC3kYCxTz7pUXM/0dohFk41nMehKNbVtWeI="
+        }
+      ]
+    },
+    {
+      "Route": "js/api-service.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\api-service.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tsr98/sVZC3kYCxTz7pUXM/0dohFk41nMehKNbVtWeI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tsr98/sVZC3kYCxTz7pUXM/0dohFk41nMehKNbVtWeI="
+        }
+      ]
+    },
+    {
+      "Route": "js/auth.dvzas2nbdu.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Geh2Z/r65AQ8wbQV/1SvajC/ZXktVNbR3/tlUiGkQS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:42:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvzas2nbdu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/auth.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Geh2Z/r65AQ8wbQV/1SvajC/ZXktVNbR3/tlUiGkQS0="
+        }
+      ]
+    },
+    {
+      "Route": "js/auth.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Geh2Z/r65AQ8wbQV/1SvajC/ZXktVNbR3/tlUiGkQS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:42:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Geh2Z/r65AQ8wbQV/1SvajC/ZXktVNbR3/tlUiGkQS0="
+        }
+      ]
+    },
+    {
+      "Route": "js/quiz-creator.gqqlzuxtpf.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-creator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aPq8w58NR0HpkS1rPJEuhZz2GR9ZwbSJbpXMS+lM4jc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:28:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gqqlzuxtpf"
+        },
+        {
+          "Name": "label",
+          "Value": "js/quiz-creator.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aPq8w58NR0HpkS1rPJEuhZz2GR9ZwbSJbpXMS+lM4jc="
+        }
+      ]
+    },
+    {
+      "Route": "js/quiz-creator.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-creator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aPq8w58NR0HpkS1rPJEuhZz2GR9ZwbSJbpXMS+lM4jc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:28:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aPq8w58NR0HpkS1rPJEuhZz2GR9ZwbSJbpXMS+lM4jc="
+        }
+      ]
+    },
+    {
+      "Route": "js/quiz-player.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-player.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0lG1A3kttTfLBvKvYw46gbRylytGtvmPy088crLlyiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:55:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0lG1A3kttTfLBvKvYw46gbRylytGtvmPy088crLlyiE="
+        }
+      ]
+    },
+    {
+      "Route": "js/quiz-player.m299gycyfq.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\quiz-player.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0lG1A3kttTfLBvKvYw46gbRylytGtvmPy088crLlyiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 16:55:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m299gycyfq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/quiz-player.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0lG1A3kttTfLBvKvYw46gbRylytGtvmPy088crLlyiE="
+        }
+      ]
+    },
+    {
+      "Route": "js/utils.ee0dj10ijr.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\utils.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqXl5HSZoEb5d2eM1PkYNLv0Huabb0j7q+1f8PctEbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:49:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ee0dj10ijr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/utils.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqXl5HSZoEb5d2eM1PkYNLv0Huabb0j7q+1f8PctEbs="
+        }
+      ]
+    },
+    {
+      "Route": "js/utils.js",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\js\\utils.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqXl5HSZoEb5d2eM1PkYNLv0Huabb0j7q+1f8PctEbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Jun 2025 15:49:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqXl5HSZoEb5d2eM1PkYNLv0Huabb0j7q+1f8PctEbs="
+        }
+      ]
+    },
+    {
+      "Route": "pages/auth/login.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTMNjhmfhvV0hvxdQMFbiSNRDbrKH9RlqIqhDFubwkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:07:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTMNjhmfhvV0hvxdQMFbiSNRDbrKH9RlqIqhDFubwkY="
+        }
+      ]
+    },
+    {
+      "Route": "pages/auth/login.t64gqkt3v5.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTMNjhmfhvV0hvxdQMFbiSNRDbrKH9RlqIqhDFubwkY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:07:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t64gqkt3v5"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/auth/login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTMNjhmfhvV0hvxdQMFbiSNRDbrKH9RlqIqhDFubwkY="
+        }
+      ]
+    },
+    {
+      "Route": "pages/auth/register.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vpg1CDS36lMu7cc89p80zE2/O0MZVYK5dhuwW7GTDp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vpg1CDS36lMu7cc89p80zE2/O0MZVYK5dhuwW7GTDp0="
+        }
+      ]
+    },
+    {
+      "Route": "pages/auth/register.umaa05hozs.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\auth\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vpg1CDS36lMu7cc89p80zE2/O0MZVYK5dhuwW7GTDp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "umaa05hozs"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/auth/register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vpg1CDS36lMu7cc89p80zE2/O0MZVYK5dhuwW7GTDp0="
+        }
+      ]
+    },
+    {
+      "Route": "pages/game/play.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\play.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ZElCTx/rgBfRof5oyUWhKqMdKKL1GzNfMf6AxEY5vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ZElCTx/rgBfRof5oyUWhKqMdKKL1GzNfMf6AxEY5vs="
+        }
+      ]
+    },
+    {
+      "Route": "pages/game/play.l05y8zp5cg.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\play.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5ZElCTx/rgBfRof5oyUWhKqMdKKL1GzNfMf6AxEY5vs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l05y8zp5cg"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/game/play.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5ZElCTx/rgBfRof5oyUWhKqMdKKL1GzNfMf6AxEY5vs="
+        }
+      ]
+    },
+    {
+      "Route": "pages/game/results.df55urrb0h.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\results.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R7tULJatVazA1YH8aSKprHhUZgoe3ek3iZl/PIndWpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "df55urrb0h"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/game/results.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R7tULJatVazA1YH8aSKprHhUZgoe3ek3iZl/PIndWpw="
+        }
+      ]
+    },
+    {
+      "Route": "pages/game/results.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\game\\results.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R7tULJatVazA1YH8aSKprHhUZgoe3ek3iZl/PIndWpw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R7tULJatVazA1YH8aSKprHhUZgoe3ek3iZl/PIndWpw="
+        }
+      ]
+    },
+    {
+      "Route": "pages/quiz/create.cblk86xo57.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Jhjsy1hLQscSO9zpcHF2WjTcpYg1mvlB4hrT6emqZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cblk86xo57"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/quiz/create.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Jhjsy1hLQscSO9zpcHF2WjTcpYg1mvlB4hrT6emqZo="
+        }
+      ]
+    },
+    {
+      "Route": "pages/quiz/create.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6Jhjsy1hLQscSO9zpcHF2WjTcpYg1mvlB4hrT6emqZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6Jhjsy1hLQscSO9zpcHF2WjTcpYg1mvlB4hrT6emqZo="
+        }
+      ]
+    },
+    {
+      "Route": "pages/quiz/edit.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O0Yc1oWyWyM0zRQG3kRmghOuuFd6ZUHo0DHxvsUsCi8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:38:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O0Yc1oWyWyM0zRQG3kRmghOuuFd6ZUHo0DHxvsUsCi8="
+        }
+      ]
+    },
+    {
+      "Route": "pages/quiz/edit.zyd62qtke4.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O0Yc1oWyWyM0zRQG3kRmghOuuFd6ZUHo0DHxvsUsCi8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:38:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zyd62qtke4"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/quiz/edit.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O0Yc1oWyWyM0zRQG3kRmghOuuFd6ZUHo0DHxvsUsCi8="
+        }
+      ]
+    },
+    {
+      "Route": "pages/quiz/list.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T5mPjAkICE+kvDs/+SGhCRYCQMO0LfooYd3RlUc+dBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T5mPjAkICE+kvDs/+SGhCRYCQMO0LfooYd3RlUc+dBw="
+        }
+      ]
+    },
+    {
+      "Route": "pages/quiz/list.pabyx6eu89.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T5mPjAkICE+kvDs/+SGhCRYCQMO0LfooYd3RlUc+dBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:08:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pabyx6eu89"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/quiz/list.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T5mPjAkICE+kvDs/+SGhCRYCQMO0LfooYd3RlUc+dBw="
+        }
+      ]
+    },
+    {
+      "Route": "pages/user/profile.0vir6yhr2s.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\user\\profile.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xAmmLLKDEuyODxo+dlg57PnQF3yGSjmMvEftNU8l58w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:23:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0vir6yhr2s"
+        },
+        {
+          "Name": "label",
+          "Value": "pages/user/profile.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xAmmLLKDEuyODxo+dlg57PnQF3yGSjmMvEftNU8l58w="
+        }
+      ]
+    },
+    {
+      "Route": "pages/user/profile.html",
+      "AssetFile": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT - before changing wwroot\\ARENDT\\Backend\\WebApi\\wwwroot\\pages\\user\\profile.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xAmmLLKDEuyODxo+dlg57PnQF3yGSjmMvEftNU8l58w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 17:23:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xAmmLLKDEuyODxo+dlg57PnQF3yGSjmMvEftNU8l58w="
+        }
+      ]
+    }
+  ]
+}

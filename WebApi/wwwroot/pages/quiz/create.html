@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARENDT - Create Quiz</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/pages/quiz.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">ARENDT</div>
+            <nav class="main-nav">
+                <a href="/pages/quiz/list.html">My Quizzes</a>
+                <a href="/pages/quiz/create.html">Create</a>
+                <div class="user-menu">
+                    <span id="userNameDisplay"></span>
+                    <div class="user-dropdown">
+                        <a href="/pages/user/profile.html">Profile</a>
+                        <a href="#" id="logoutBtn">Logout</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="app-content">
+            <div class="content-header">
+                <h1>Create New Quiz</h1>
+                <button id="btnCreateNewQuiz" class="btn btn-primary">New Quiz</button>
+            </div>
+
+            <div class="quiz-creator">
+                <!-- Step 1: Quiz Info -->
+                <section id="quizInfoForm" class="quiz-section" style="display: none;">
+                    <h2>Quiz Details</h2>
+                    <div class="form-group">
+                        <label for="quizTitle">Quiz Title</label>
+                        <input type="text" id="quizTitle" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quizDescription">Description</label>
+                        <textarea id="quizDescription" class="form-control" required></textarea>
+                    </div>
+                    <div class="button-group">
+                        <button id="btnNext" class="btn btn-primary">Continue</button>
+                    </div>
+                </section>
+
+                <!-- Step 2: Add Questions -->
+                <form id="addQuestionForm" class="quiz-section" style="display: none;">
+                    <h2>Add Questions</h2>
+                    <div class="question-form">
+                        <div class="form-group">
+                            <label for="questionText">Question</label>
+                            <input type="text" id="questionText" class="form-control" placeholder="Enter your question" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group form-group-half">
+                                <label for="questionTime">Time Limit (15-60 seconds)</label>
+                                <input type="number" id="questionTime" class="form-control" min="15" max="60" value="30" required>
+                            </div>
+                            <div class="form-group form-group-half">
+                                <label for="questionMaxPoints">Points</label>
+                                <input type="number" id="questionMaxPoints" class="form-control" min="1" max="1000" value="100" required>
+                            </div>
+                        </div>
+
+                        <div class="answer-options">
+                            <h3>Answer Options</h3>
+                            <p class="hint">Select one correct answer</p>
+
+                            <div class="answer-option">
+                                <input type="text" id="answer1" class="form-control" placeholder="Answer option 1" required>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="chbxAnswer1" name="correctAnswer">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+
+                            <div class="answer-option">
+                                <input type="text" id="answer2" class="form-control" placeholder="Answer option 2" required>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="chbxAnswer2" name="correctAnswer">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+
+                            <div class="answer-option">
+                                <input type="text" id="answer3" class="form-control" placeholder="Answer option 3" required>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="chbxAnswer3" name="correctAnswer">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+
+                            <div class="answer-option">
+                                <input type="text" id="answer4" class="form-control" placeholder="Answer option 4" required>
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="chbxAnswer4" name="correctAnswer">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="button-group">
+                            <button type="button" id="btnAddAnotherQuestion" class="btn btn-secondary">Add Question</button>
+                            <button type="button" id="btnSave" class="btn btn-primary" disabled>Save Quiz</button>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Quiz List -->
+                <section id="quizList" class="quiz-list-section">
+                    <h2>My Quizzes</h2>
+                    <div class="quiz-panel">
+                        <!-- Quizzes will be added here dynamically -->
+                    </div>
+                </section>
+
+                <!-- Questions Panel -->
+                <aside class="question-panel">
+                    <!-- Questions will be added here dynamically -->
+                </aside>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2025 ARENDT. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="/js/utils.js"></script>
+    <script src="/js/api-service.js"></script>
+    <script src="/js/quiz-creator.js"></script>
+</body>
+</html>

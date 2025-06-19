@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARENDT - Game Results</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/pages/game.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo">ARENDT</div>
+            <nav class="main-nav">
+                <a href="/pages/quiz/list.html">My Quizzes</a>
+                <a href="/pages/quiz/create.html">Create</a>
+                <div class="user-menu">
+                    <span id="userNameDisplay"></span>
+                    <div class="user-dropdown">
+                        <a href="/pages/user/profile.html">Profile</a>
+                        <a href="#" id="logoutBtn">Logout</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="app-content">
+            <div class="results-container">
+                <div class="results-header">
+                    <h1>Game Results</h1>
+                    <div class="results-quiz-info" id="quizInfo">
+                        <!-- Quiz info will be dynamically inserted -->
+                    </div>
+                </div>
+
+                <div class="results-podium">
+                    <div class="podium-place podium-second" id="secondPlace">
+                        <div class="podium-avatar">2</div>
+                        <div class="podium-info">
+                            <h3 class="podium-name">--</h3>
+                            <div class="podium-score">--</div>
+                        </div>
+                    </div>
+
+                    <div class="podium-place podium-first" id="firstPlace">
+                        <div class="crown">👑</div>
+                        <div class="podium-avatar">1</div>
+                        <div class="podium-info">
+                            <h3 class="podium-name">--</h3>
+                            <div class="podium-score">--</div>
+                        </div>
+                    </div>
+
+                    <div class="podium-place podium-third" id="thirdPlace">
+                        <div class="podium-avatar">3</div>
+                        <div class="podium-info">
+                            <h3 class="podium-name">--</h3>
+                            <div class="podium-score">--</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-leaderboard">
+                    <h2>Full Leaderboard</h2>
+                    <div class="leaderboard-container" id="leaderboardContainer">
+                        <!-- Leaderboard will be dynamically inserted -->
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <a href="/pages/quiz/list.html" class="btn btn-secondary">Back to Quizzes</a>
+                    <button id="btnPlayAgain" class="btn btn-primary">Play Again</button>
+                </div>
+            </div>
+
+            <div class="decoration">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div id="confetti-container"></div>
+            </div>
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2025 ARENDT. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <style>
+        .results-container {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .results-header {
+            text-align: center;
+            margin-bottom: var(--spacing-6);
+        }
+
+        .results-quiz-info {
+            color: var(--color-text-light);
+            margin-top: var(--spacing-2);
+        }
+
+        .results-podium {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-bottom: var(--spacing-8);
+            gap: var(--spacing-4);
+            height: 300px;
+        }
+
+        .podium-place {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        .podium-first {
+            z-index: 3;
+        }
+
+        .podium-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--color-primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: var(--spacing-2);
+        }
+
+        .podium-first .podium-avatar {
+            width: 100px;
+            height: 100px;
+            font-size: 3rem;
+            background-color: gold;
+            color: var(--color-text);
+        }
+
+        .podium-second .podium-avatar {
+            background-color: silver;
+            color: var(--color-text);
+        }
+
+        .podium-third .podium-avatar {
+            background-color: #cd7f32;
+            color: white;
+        }
+
+        .crown {
+            position: absolute;
+            top: -30px;
+            font-size: 2.5rem;
+        }
+
+        .podium-info {
+            text-align: center;
+            background-color: white;
+            padding: var(--spacing-3) var(--spacing-4);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+            width: 150px;
+        }
+
+        .podium-name {
+            margin: 0;
+            font-size: var(--font-size-lg);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .podium-score {
+            color: var(--color-primary);
+            font-weight: bold;
+        }
+
+        .results-leaderboard {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: var(--spacing-6);
+            box-shadow: var(--shadow-md);
+            margin-bottom: var(--spacing-8);
+        }
+
+            .results-leaderboard h2 {
+                margin-top: 0;
+                text-align: center;
+            }
+
+        .leaderboard-container {
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: var(--spacing-4);
+        }
+
+        .leaderboard-item {
+            display: flex;
+            align-items: center;
+            padding: var(--spacing-3);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .results-actions {
+            display: flex;
+            justify-content: center;
+            gap: var(--spacing-4);
+        }
+    </style>
+
+    <script src="/js/utils.js"></script>
+    <script src="/js/api-service.js"></script>
+    <script>onDocumentReady(() => {
+      if (!requireAuth()) return;
+
+      // Get URL parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const sessionCode = urlParams.get('session');
+
+      if (!sessionCode) {
+        window.location.href = '/pages/quiz/list.html';
+        return;
+      }
+
+      // Elements
+      const quizInfo = document.getElementById('quizInfo');
+      const firstPlace = document.getElementById('firstPlace');
+      const secondPlace = document.getElementById('secondPlace');
+      const thirdPlace = document.getElementById('thirdPlace');
+      const leaderboardContainer = document.getElementById('leaderboardContainer');
+      const btnPlayAgain = document.getElementById('btnPlayAgain');
+      const confettiContainer = document.getElementById('confetti-container');
+
+      // Fetch the results data
+      function fetchResults() {
+        // This would normally be a call to your API
+        // For demo purposes, we'll use mock data
+        const mockResults = {
+          quizName: 'General Knowledge Quiz',
+          quizCreator: 'JohnDoe',
+          players: [
+            { username: 'Winner1', score: 950 },
+            { username: 'Player2', score: 750 },
+            { username: 'Gamer3', score: 600 },
+            { username: 'User4', score: 450 },
+            { username: 'QuizMaster', score: 350 },
+            { username: 'QuizTaker', score: 200 },
+            { username: 'LastPlace', score: 100 }
+          ]
+        };
+
+        displayResults(mockResults);
+      }
+
+      // Display the results data
+      function displayResults(results) {
+        // Update quiz info
+        if (quizInfo) {
+          quizInfo.textContent = `${results.quizName} by ${results.quizCreator}`;
+        }
+
+        // Update podium
+        if (results.players.length > 0 && firstPlace) {
+          const winner = results.players[0];
+          const firstPlaceName = firstPlace.querySelector('.podium-name');
+          const firstPlaceScore = firstPlace.querySelector('.podium-score');
+
+          if (firstPlaceName) firstPlaceName.textContent = winner.username;
+          if (firstPlaceScore) firstPlaceScore.textContent = `${winner.score} pts`;
+
+          // Create confetti for winner
+          createConfetti();
+        }
+
+        if (results.players.length > 1 && secondPlace) {
+          const runnerUp = results.players[1];
+          const secondPlaceName = secondPlace.querySelector('.podium-name');
+          const secondPlaceScore = secondPlace.querySelector('.podium-score');
+
+          if (secondPlaceName) secondPlaceName.textContent = runnerUp.username;
+          if (secondPlaceScore) secondPlaceScore.textContent = `${runnerUp.score} pts`;
+        }
+
+        if (results.players.length > 2 && thirdPlace) {
+          const third = results.players[2];
+          const thirdPlaceName = thirdPlace.querySelector('.podium-name');
+          const thirdPlaceScore = thirdPlace.querySelector('.podium-score');
+
+          if (thirdPlaceName) thirdPlaceName.textContent = third.username;
+          if (thirdPlaceScore) thirdPlaceScore.textContent = `${third.score} pts`;
+        }
+
+        // Update full leaderboard
+        if (leaderboardContainer) {
+          leaderboardContainer.innerHTML = '';
+
+          results.players.forEach((player, index) => {
+            const leaderboardItem = document.createElement('div');
+            leaderboardItem.className = 'leaderboard-item';
+
+            leaderboardItem.innerHTML = `
+              <div class="rank">${index + 1}</div>
+              <div class="player-name">${player.username}</div>
+              <div class="player-score">${player.score} pts</div>
+            `;
+
+            leaderboardContainer.appendChild(leaderboardItem);
+          });
+        }
+      }
+
+      // Create confetti effect
+      function createConfetti() {
+        if (!confettiContainer) return;
+
+        const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', '#8BC34A', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'];
+
+        for (let i = 0; i < 100; i++) {
+          const confetti = document.createElement('div');
+          confetti.className = 'confetti';
+          confetti.style.left = Math.random() * 100 + '%';
+          confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+          confetti.style.width = Math.random() * 10 + 5 + 'px';
+          confetti.style.height = Math.random() * 10 + 5 + 'px';
+          confetti.style.animationDelay = Math.random() * 5 + 's';
+          confettiContainer.appendChild(confetti);
+        }
+      }
+
+      // Play again button
+      if (btnPlayAgain) {
+        btnPlayAgain.addEventListener('click', () => {
+          // Get the quiz ID from localStorage if available
+          const quizId = localStorage.getItem('quizId');
+
+          if (quizId) {
+            window.location.href = '/pages/game/join.html';
+          } else {
+            window.location.href = '/pages/quiz/list.html';
+          }
+        });
+      }
+
+      // Initialize
+      fetchResults();
+    });</script>
+</body>
+</html>

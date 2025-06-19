@@ -1,0 +1,279 @@
+﻿/* Buttons */
+.btn {
+    display: inline-block;
+    padding: var(--spacing-2) var(--spacing-4);
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+    .btn-primary:hover {
+        background-color: var(--color-primary-dark);
+        text-decoration: none;
+    }
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+    .btn-secondary:hover {
+        background-color: var(--color-secondary-dark);
+        text-decoration: none;
+    }
+
+.btn-danger {
+    background-color: var(--color-danger);
+    color: white;
+}
+
+    .btn-danger:hover {
+        background-color: #b91c1c;
+        text-decoration: none;
+    }
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+    .btn-outline:hover {
+        background-color: var(--color-primary);
+        color: white;
+        text-decoration: none;
+    }
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-lg {
+    padding: var(--spacing-3) var(--spacing-6);
+    font-size: var(--font-size-lg);
+}
+
+.btn:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: var(--spacing-4);
+}
+
+.form-row {
+    display: flex;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-4);
+}
+
+.form-group-half {
+    flex: 1;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: var(--spacing-2) var(--spacing-3);
+    font-size: var(--font-size);
+    line-height: 1.5;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    transition: border-color 0.15s ease-in-out;
+}
+
+    .form-control:focus {
+        border-color: var(--color-primary);
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25);
+    }
+
+/* Labels */
+label {
+    display: inline-block;
+    margin-bottom: var(--spacing-2);
+    font-weight: 500;
+}
+
+/* Card */
+.card {
+    background-color: var(--color-background);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+
+.card-header {
+    padding: var(--spacing-4);
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.card-body {
+    padding: var(--spacing-4);
+}
+
+.card-footer {
+    padding: var(--spacing-4);
+    background-color: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+}
+
+/* Checkbox */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+    .checkbox-container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: var(--color-primary);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Game Elements */
+.timer {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.timer-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: conic-gradient(var(--color-primary) 0% var(--progress, 100%), transparent var(--progress, 100%) 100%);
+}
+
+.timer-text {
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer-card {
+    position: relative;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: var(--border-radius-lg);
+    border: none;
+    text-align: left;
+    background-color: white;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+    .answer-card:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .answer-card.answer-1 {
+        border-left: 5px solid #e11d48;
+    }
+
+    .answer-card.answer-2 {
+        border-left: 5px solid #2563eb;
+    }
+
+    .answer-card.answer-3 {
+        border-left: 5px solid #7c3aed;
+    }
+
+    .answer-card.answer-4 {
+        border-left: 5px solid #059669;
+    }
+
+.answer-symbol {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.answer-text {
+    font-size: 1.125rem;
+}

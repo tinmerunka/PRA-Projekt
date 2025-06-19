@@ -1,0 +1,86 @@
+﻿/* Auth Specific Styles */
+.auth-container {
+    padding: var(--spacing-4);
+}
+
+.auth-tabs {
+    display: flex;
+    margin-bottom: var(--spacing-4);
+}
+
+.auth-tab {
+    flex: 1;
+    text-align: center;
+    padding: var(--spacing-2);
+    cursor: pointer;
+    border-bottom: 2px solid var(--color-border);
+}
+
+    .auth-tab.active {
+        border-bottom-color: var(--color-primary);
+        color: var(--color-primary);
+    }
+
+.auth-link {
+    display: block;
+    text-align: center;
+    margin-top: var(--spacing-4);
+}
+
+.auth-form-footer {
+    margin-top: var(--spacing-6);
+    text-align: center;
+    color: var(--color-text-light);
+}
+
+.social-auth {
+    margin-top: var(--spacing-6);
+}
+
+.social-auth-heading {
+    text-align: center;
+    margin-bottom: var(--spacing-4);
+    position: relative;
+}
+
+    .social-auth-heading::before,
+    .social-auth-heading::after {
+        content: "";
+        display: block;
+        width: 40%;
+        height: 1px;
+        background-color: var(--color-border);
+        position: absolute;
+        top: 50%;
+    }
+
+    .social-auth-heading::before {
+        left: 0;
+    }
+
+    .social-auth-heading::after {
+        right: 0;
+    }
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-3);
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+    .social-button:hover {
+        background-color: var(--color-border);
+    }
