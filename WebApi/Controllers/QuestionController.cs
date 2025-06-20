@@ -50,7 +50,7 @@ namespace WebApi.Controllers
             }
         }
 
-        // GET: api/Question/5
+        // GET: api/Question/id
         [HttpGet("{id}")]
         public ActionResult<QuestionDTO> GetQuestion(int id)
         {
@@ -63,7 +63,7 @@ namespace WebApi.Controllers
             return Ok(question);
         }
 
-        // PUT: api/Question/5
+        // PUT: api/Question/id
         [HttpPut("{id}")]
         public IActionResult UpdateQuestion(int id, [FromBody] QuestionDTO questionDTO)
         {
@@ -95,7 +95,7 @@ namespace WebApi.Controllers
         }
 
 
-        // DELETE: api/Question/5
+        // DELETE: api/Question/id
         [HttpDelete("{id}")]
         public ActionResult<QuestionDTO> DeleteQuestion(int id)
         {
