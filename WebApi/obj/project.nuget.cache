@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OLf0Gje8Pzg=",
+  "dgSpecHash": "uuaQjscqCWw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT\\ARENDT\\Backend\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\meri4\\Desktop\\GitHub\\PRA\\PRA-Projekt\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\meri4\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\meri4\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

@@ -4161,11 +4161,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT\\ARENDT\\Backend\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\meri4\\Desktop\\GitHub\\PRA\\PRA-Projekt\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT\\ARENDT\\Backend\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\meri4\\Desktop\\GitHub\\PRA\\PRA-Projekt\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\meri4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meri4\\Desktop\\PRA\\ARENDT\\ARENDT\\Backend\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\meri4\\Desktop\\GitHub\\PRA\\PRA-Projekt\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
