@@ -1,109 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\",
+  "WorkspaceRootPath": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\quiz\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\js\\quiz-creator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\quiz-creator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\user\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\user\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\js\\api-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\api-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\quiz\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\utilities\\dbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\dbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\quiz\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\game\\results.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\game\\results.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\game\\play.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\game\\play.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\game\\play.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\auth\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\quiz\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\edit.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\js\\quiz-creator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\quiz-creator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\user\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\user\\profile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\js\\api-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\api-service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\quiz\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\create.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\utilities\\dbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\dbservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\quiz\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\quiz\\list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\game\\results.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\game\\results.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\auth\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\auth\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\pages\\auth\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\pages\\auth\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\pages\\auth\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\js\\quiz-player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\js\\quiz-player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\quiz-player.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\utilities\\connectionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\utilities\\connectionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\connectionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\models\\pracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\models\\pracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\pracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\dtos\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\dtos\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\quizdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\wwwroot\\js\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\wwwroot\\js\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\wwwroot\\js\\utils.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\florijan\\onedrive - algebra\\radna povr\u0161ina\\github\\pra-projekt\\webapi\\controllers\\quizhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|c:\\users\\razum\\documents\\github\\pra-projekt\\webapi\\controllers\\quizhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B1A15D9-3261-43D9-9CB5-0818FAFCFCAE}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\quizhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -114,15 +114,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 267,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "base.css",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\css\\base.css",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\css\\base.css",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\css\\base.css",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\css\\base.css",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\css\\base.css",
               "RelativeToolTip": "WebApi\\wwwroot\\css\\base.css",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAE8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -130,28 +134,12 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ConnectionServices.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\ConnectionServices.cs",
-              "RelativeDocumentMoniker": "WebApi\\Utilities\\ConnectionServices.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\ConnectionServices.cs",
-              "RelativeToolTip": "WebApi\\Utilities\\ConnectionServices.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAgwKQAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:53:09.599Z"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "QuestionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuestionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuestionDTO.cs",
               "RelativeDocumentMoniker": "WebApi\\DTOs\\QuestionDTO.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuestionDTO.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuestionDTO.cs",
               "RelativeToolTip": "WebApi\\DTOs\\QuestionDTO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,24 +147,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "QuestionController.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuestionController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\QuestionController.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuestionController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\QuestionController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAkwGEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:05:58.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T13:05:58.718Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "QuizDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuizDTO.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuizDTO.cs",
               "RelativeDocumentMoniker": "WebApi\\DTOs\\QuizDTO.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuizDTO.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\DTOs\\QuizDTO.cs",
               "RelativeToolTip": "WebApi\\DTOs\\QuizDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,9 +173,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "PraContext.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Models\\PraContext.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Models\\PraContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Models\\PraContext.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Models\\PraContext.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Models\\PraContext.cs",
               "RelativeToolTip": "WebApi\\Models\\PraContext.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAwwG4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -198,9 +185,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\AutoMapper\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\AutoMapper\\MappingProfile.cs",
               "RelativeDocumentMoniker": "WebApi\\AutoMapper\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\AutoMapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\AutoMapper\\MappingProfile.cs",
               "RelativeToolTip": "WebApi\\AutoMapper\\MappingProfile.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -208,11 +195,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "play.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\play.html",
+              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\game\\play.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\play.html",
+              "RelativeToolTip": "WebApi\\wwwroot\\pages\\game\\play.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-18T20:49:12.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConnectionServices.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\ConnectionServices.cs",
+              "RelativeDocumentMoniker": "WebApi\\Utilities\\ConnectionServices.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\ConnectionServices.cs",
+              "RelativeToolTip": "WebApi\\Utilities\\ConnectionServices.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAgwKQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T16:53:09.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAlwJAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -222,9 +234,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "register.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\register.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\register.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\auth\\register.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\register.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\register.html",
               "RelativeToolTip": "WebApi\\wwwroot\\pages\\auth\\register.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -234,9 +246,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "login.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\login.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\login.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\auth\\login.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\login.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\auth\\login.html",
               "RelativeToolTip": "WebApi\\wwwroot\\pages\\auth\\login.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -244,11 +256,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "api-service.js",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api-service.js",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api-service.js",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\api-service.js",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api-service.js",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api-service.js",
               "RelativeToolTip": "WebApi\\wwwroot\\js\\api-service.js",
               "ViewState": "AgIAAGEAAAAAAAAAAAAgwLgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -258,9 +270,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "utils.js",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\utils.js",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\utils.js",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\utils.js",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\utils.js",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\utils.js",
               "RelativeToolTip": "WebApi\\wwwroot\\js\\utils.js",
               "ViewState": "AgIAAEwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -268,11 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "results.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\results.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\results.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\game\\results.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\results.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\results.html",
               "RelativeToolTip": "WebApi\\wwwroot\\pages\\game\\results.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -280,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "create.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\create.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\quiz\\create.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\create.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\create.html",
               "RelativeToolTip": "WebApi\\wwwroot\\pages\\quiz\\create.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -292,11 +304,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "edit.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\quiz\\edit.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\edit.html",
               "RelativeToolTip": "WebApi\\wwwroot\\pages\\quiz\\edit.html",
               "ViewState": "AgIAAJ4CAAAAAAAAAAAuwK4CAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -304,11 +316,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "list.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\list.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\quiz\\list.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\list.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\quiz\\list.html",
               "RelativeToolTip": "WebApi\\wwwroot\\pages\\quiz\\list.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -316,11 +328,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "auth.js",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\auth.js",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\auth.js",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\auth.js",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\auth.js",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\auth.js",
               "RelativeToolTip": "WebApi\\wwwroot\\js\\auth.js",
               "ViewState": "AgIAABsAAAAAAAAAAAAgwC8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -330,9 +342,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "api.js",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api.js",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api.js",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\api.js",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api.js",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\api.js",
               "RelativeToolTip": "WebApi\\wwwroot\\js\\api.js",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -340,11 +352,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DbServices.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\DbServices.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\DbServices.cs",
               "RelativeDocumentMoniker": "WebApi\\Utilities\\DbServices.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\DbServices.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Utilities\\DbServices.cs",
               "RelativeToolTip": "WebApi\\Utilities\\DbServices.cs",
               "ViewState": "AgIAAD4CAAAAAAAAAAAQwEYCAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -352,23 +364,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "play.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\play.html",
-              "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\game\\play.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\game\\play.html",
-              "RelativeToolTip": "WebApi\\wwwroot\\pages\\game\\play.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-18T20:49:12.772Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "QuizHistoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizHistoryController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\QuizHistoryController.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizHistoryController.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizHistoryController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\QuizHistoryController.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAkwFIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -376,11 +376,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "profile.html",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\user\\profile.html",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\user\\profile.html",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\pages\\user\\profile.html",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\user\\profile.html",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\pages\\user\\profile.html",
               "RelativeToolTip": "WebApi\\wwwroot\\pages\\user\\profile.html",
               "ViewState": "AgIAAJYBAAAAAAAAAAAAAKIBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -388,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "quiz-creator.js",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-creator.js",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-creator.js",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\quiz-creator.js",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-creator.js",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-creator.js",
               "RelativeToolTip": "WebApi\\wwwroot\\js\\quiz-creator.js",
               "ViewState": "AgIAAPQAAAAAAAAAAAAqwM4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -402,9 +402,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "QuizController.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\QuizController.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Controllers\\QuizController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\QuizController.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAYwMAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -414,9 +414,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "quiz-player.js",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-player.js",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-player.js",
               "RelativeDocumentMoniker": "WebApi\\wwwroot\\js\\quiz-player.js",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-player.js",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\wwwroot\\js\\quiz-player.js",
               "RelativeToolTip": "WebApi\\wwwroot\\js\\quiz-player.js",
               "ViewState": "AgIAAFMAAAAAAAAAAAApwGEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -426,9 +426,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Florijan\\OneDrive - Algebra\\Radna povr\u0161ina\\GitHub\\PRA-Projekt\\WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\razum\\Documents\\GitHub\\PRA-Projekt\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAYwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
