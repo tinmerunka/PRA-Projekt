@@ -32,7 +32,7 @@ namespace WebApi.Controllers
                     return BadRequest("Question must include answers");
                 }
 
-                // Make sure questionId is 0 for new questions
+               
                 questionDTO.QuestionId = 0;
 
                 var createdQuestion = _dbService.UpdateQuestion(questionDTO);
